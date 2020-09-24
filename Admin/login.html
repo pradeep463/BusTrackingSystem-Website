@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Track Me</title>
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/adminlogin.css">
+<link rel="stylesheet" href="../css/bodybackground.css">
+<script src="../Javascripts/pswHorV.js"></script>
+</head>
+<body>
+<div class="logoImg">
+<a href="../index.php"><img src="../images/trackmelogo.jpg" alt="logo" height="65" width="65"></a>
+</div>
+<div class="logotext">
+TrackMe
+</div>
+<hr class="hr">
+ <ul>
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../Download/TrackMe.apk">Download</a></li>
+        <li>
+            <a href="#">Login/Rigister &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="../admin/login.html">Admin</a></li>
+                <li><a href="../Passenger/login.html">Passanger</a></li>
+            </ul>
+        </li>
+		<li><a href="../InstallationGuid/InstallationGuide.pdf">Instalation Guide</a></li>
+		<li><a href="#">Features</a></li>
+        <li><a href="#">Contact Us</a></li>
+		<li><a href="../About/about.html">About</a></li>
+    </ul>
+<div class="adminLogin">
+<form method="POST" action="loginCheckValidity.php">
+<h3>ADMIN LOGIN</h3>
+User Name or Email-id : <input type="textbox" size="20" name="uname" required /> <br>
+Password : <input type="password" size="20" id="psw" name="password" required /><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+<input type="submit" value="Login">
+</form>
+</div>
+</body>
+</html>

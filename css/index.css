@@ -1,0 +1,65 @@
+/* logo */
+.hr {
+	border: 2px solid red;
+	background-color: #03f;
+	margin-top: 70px;
+}
+.logoImg{
+	position:absolute;
+	top:8px;
+	left:10px;
+}
+.logotext{
+position:absolute;
+	top:25px;
+	left:80px;
+	font-family:Constantia;
+	font-size:30px;
+}
+
+/* Menu */
+ul{
+       
+        list-style: none;
+        background:#80ccff;
+		position:absolute;
+		top:15px;
+		left:520px;
+		font-size:18px
+    }
+ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+    }
+ul li a:hover{
+        color: #80ccff;
+        background: #939393;
+    }
+ul li ul.dropdown{
+        min-width: 100%;
+        background: #80ccff;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+ul li:hover ul.dropdown{
+        display: block; 
+		position:absolute;
+		top:35px;
+		background: #80ccff;
+		
+    }
+ul li ul.dropdown li{
+        display: block;
+    }
+	
+	

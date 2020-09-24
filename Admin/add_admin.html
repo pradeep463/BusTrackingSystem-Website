@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Track Me</title>
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/adminlogin.css">
+<link rel="stylesheet" href="../css/adminDriverpage.css">
+<link rel="stylesheet" href="../css/bodybackground.css">
+<script src="../Javascripts/pswHorV.js"></script>
+</head>
+<body>
+<div class="logoImg">
+<a href="../index.php"><img src="" alt="logo" height="" width=""></a>
+</div>
+<div class="logotext">
+TrackMe
+</div>
+<hr class="hr">
+ <ul>
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../Download/TrackMe.apk">Download</a></li>
+        <li>
+            <a href="#">Login/Rigister &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="../admin/login.html">Admin</a></li>
+                <li><a href="../Passenger/login.html">Passanger</a></li>
+            </ul>
+        </li>
+		<li><a href="../InstallationGuid/InstallationGuide.pdf">Instalation Guide</a></li>
+		<li><a href="#">Features</a></li>
+        <li><a href="#">Contact Us</a></li>
+		<li><a href="../About/about.html">About</a></li>
+    </ul>
+<div class="adminLogin">
+
+<form action="add_admin_to_database.php" method="post">
+<h3>Add New Admin</h3>
+Admin UserName : <input type="textbox" name="userName" size="20" required><br>
+Admin Password : <input type="password" id="psw" name="password" size="20" required><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+<input type="submit" value="Add">
+
+</form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Track Me</title>
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/adddriver.css">
+<link rel="stylesheet" href="../css/bodybackground.css">
+<script src="../Javascripts/pswHorV.js"></script>
+</head>
+<body>
+<div class="logoImg">
+<a href="../index.php"><img src="../images/trackmelogo.jpg" alt="logo" height="65" width="65"></a>
+</div>
+<div class="logotext">
+TrackMe
+</div>
+<hr class="hr">
+ <ul>
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../Download/TrackMe.apk">Download</a></li>
+        <li>
+            <a href="#">Login/Rigister &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="../admin/login.html">Admin</a></li>
+                <li><a href="../Passenger/login.html">Passanger</a></li>
+            </ul>
+        </li>
+		<li><a href="../InstallationGuid/InstallationGuide.pdf">Instalation Guide</a></li>
+		<li><a href="#">Features</a></li>
+        <li><a href="#">Contact Us</a></li>
+		<li><a href="../About/about.html">About</a></li>
+    </ul>
+<div class="passRigi">
+<form method="POST" action="addnewdriver.php">
+<h3>Add New Driver</h3>
+Driver Name: <input type="textbox" size="20" name="name" required /> <br>
+Driver Email-id : <input type="textbox" size="20" name="email" required /> <br>
+Password : <input type="password" size="15" id="paspsw" name="password" required />
+<input type="checkbox" onclick="myFunctionPassanger()">Show Password<br>
+Driver Mobile Number : <input type="textbox" size="20" name="mob" required /> <br>
+Driver Address :<input type="textbox" size="20" name="add" required /> <br>
+
+<input type="submit" value="Add Driver">
+</form>
+</div>
+	
+	
+	
+	</body>
+	</html>

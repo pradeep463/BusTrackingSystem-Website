@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Track Me </title>
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/PassangerLOGREG.css">
+<link rel="stylesheet" href="../css/adminlogin.css">
+<link rel="stylesheet" href="../css/bodybackground.css">
+<script src="../Javascripts/pswHorV.js"></script>
+</head>
+<body>
+<div class="logoImg">
+<a href="../index.html"><img src="" alt="logo" height="" width=""></a>
+</div>
+<div class="logotext">
+TrackMe
+</div>
+<hr class="hr">
+ <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Download/TrackMe.apk">Download</a></li>
+        <li>
+            <a href="#">Login/Rigister &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="../admin/login.html">Admin</a></li>
+                <li><a href="login.html">Passanger</a></li>
+            </ul>
+        </li>
+		<li><a href="../InstallationGuid/InstallationGuide.pdf">Instalation Guide</a></li>
+		<li><a href="#">Features</a></li>
+        <li><a href="#">Contact Us</a></li>
+		<li><a href="#">About</a></li>
+    </ul>
+	
+	<div class="passLogin">
+<form method="POST" action="loginValid.php">
+<h3>PASSANGER LOGIN</h3>
+Email-id : <input type="textbox" size="20" name="email" required /> <br>
+Password : <input type="password" size="20" id="psw" name="password" required /><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+<input type="submit" value="Login">
+</form>
+</div>
+
+<div class="passRigi">
+<form method="POST" action="RigiQuery.php">
+<h3>PASSANGER RIGISTER</h3>
+Username: <input type="textbox" size="20" name="username" required /> <br>
+Email-id : <input type="textbox" size="20" name="email" required /> <br>
+Password : <input type="password" size="20" id="paspsw" name="password" required />
+<input type="checkbox" onclick="myFunctionPassanger()">Show Password<br>
+Mobile : <input type="textbox" size="20" name="mob" required /> <br>
+Gender : <br>
+<input type="radio" size="20" name="gender" value="Male" checked="checked"  />Male
+<input type="radio" size="20" name="gender" value="Female"  /> Female<br>
+
+<input type="submit" value="Rigister">
+</form>
+</div>
+
+
+
+<body>
+</html>
